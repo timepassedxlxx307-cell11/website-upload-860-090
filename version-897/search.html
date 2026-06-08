@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索影视内容 - 免费影视</title>
+  <meta name="description" content="免费影视搜索页面，可按片名、年份、地区、类型和标签查找热门电影电视剧。">
+  <meta name="keywords" content="免费在线视频,最新国产电影,热门电视剧,高清流畅播放,无插件,纯净观影,免费影视,在线观看,国产影视,热门电影,免费电视剧,高清视频">
+  <link rel="stylesheet" href="./assets/base.css">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-index.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a class="site-logo" href="./index.html" aria-label="免费影视">
+        <span class="logo-mark">▶</span>
+        <span>免费影视</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./rankings.html">排行榜</a>
+        <a href="./category-movie-hall.html">电影</a>
+        <a href="./category-series-zone.html">剧集</a>
+      </nav>
+      <form class="header-search" data-site-search action="./search.html">
+        <input type="search" name="q" placeholder="搜索影片、剧集、地区">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="mobile-toggle" type="button" data-mobile-toggle aria-label="菜单" aria-expanded="false">☰</button>
+    </div>
+    <nav class="mobile-nav" data-mobile-nav aria-label="移动导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./rankings.html">排行榜</a>
+      <a href="./category-movie-hall.html">电影</a>
+      <a href="./category-series-zone.html">剧集</a>
+      <a href="./search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+<main class="site-main">
+  <section class="page-hero">
+    <div class="container">
+      <h1>搜索影视内容</h1>
+      <p>输入片名、年份、地区、题材或关键词，快速找到想看的电影与剧集。</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container search-layout">
+      <div class="filter-panel">
+        <input type="search" data-search-input placeholder="搜索片名、类型、地区、标签">
+        <select aria-label="搜索范围">
+          <option>全站内容</option>
+        </select>
+        <select aria-label="播放体验">
+          <option>高清流畅</option>
+        </select>
+      </div>
+      <div data-search-results class="search-layout"></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-title-row">
+  <div class="section-title">
+    <h2>热门推荐</h2>
+    <p>也可以从这些内容开始浏览。</p>
+    <div class="title-line"></div>
+  </div>
+  
+</div>
+      <div class="movie-grid">
+<a class="movie-card" data-movie-card data-search="封神之人鱼传说 姜子牙封神之后,一条被镇压千年的远古人鱼苏醒,引发滔天洪水,杨戬后人被迫踏上斩浪之旅。 中国大陆 电影 2025 奇幻/动作 封神宇宙 人鱼族 水患 妲己 新神话" data-type="电影" data-year="2025" href="./movie-1.html">
+  <span class="poster-wrap">
+    <img src="./1.jpg" alt="封神之人鱼传说" loading="lazy">
+    <span class="badge-year">2025</span>
+    <span class="badge-region">中国大陆</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>封神之人鱼传说</h3>
+    <p>姜子牙封神之后,一条被镇压千年的远古人鱼苏醒,引发滔天洪水,杨戬后人被迫踏上斩浪之旅。</p>
+    <span class="tag-list"><span class="tag">封神宇宙</span><span class="tag">人鱼族</span><span class="tag">水患</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="西地突围 西南剿匪时期,一支解放军侦察小队进入原始森林,发现匪徒阵营里藏着国民党特派员。 中国大陆 电影 2024 战争/动作/悬疑 潜伏 剿匪 反特 丛林战" data-type="电影" data-year="2024" href="./movie-2.html">
+  <span class="poster-wrap">
+    <img src="./2.jpg" alt="西地突围" loading="lazy">
+    <span class="badge-year">2024</span>
+    <span class="badge-region">中国大陆</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>西地突围</h3>
+    <p>西南剿匪时期,一支解放军侦察小队进入原始森林,发现匪徒阵营里藏着国民党特派员。</p>
+    <span class="tag-list"><span class="tag">潜伏</span><span class="tag">剿匪</span><span class="tag">反特</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="说唱梦工厂 过气rapper伪装成素人参加选秀,却意外揭露了节目组操控冠军的黑幕。 中国大陆 剧集 2027 音乐/剧情 说唱 追梦 选秀内幕" data-type="剧集" data-year="2027" href="./movie-3.html">
+  <span class="poster-wrap">
+    <img src="./3.jpg" alt="说唱梦工厂" loading="lazy">
+    <span class="badge-year">2027</span>
+    <span class="badge-region">中国大陆</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>说唱梦工厂</h3>
+    <p>过气rapper伪装成素人参加选秀,却意外揭露了节目组操控冠军的黑幕。</p>
+    <span class="tag-list"><span class="tag">说唱</span><span class="tag">追梦</span><span class="tag">选秀内幕</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="妈阁是座城 澳门女叠码仔游走于赌场与男人之间,她借出的不仅是筹码,更是永远收不回的情与债。 中国 电影 2019 剧情,爱情,赌场 澳门赌场 叠码仔 女性视角 赌徒众生相 情感纠葛" data-type="电影" data-year="2019" href="./movie-4.html">
+  <span class="poster-wrap">
+    <img src="./4.jpg" alt="妈阁是座城" loading="lazy">
+    <span class="badge-year">2019</span>
+    <span class="badge-region">中国</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>妈阁是座城</h3>
+    <p>澳门女叠码仔游走于赌场与男人之间,她借出的不仅是筹码,更是永远收不回的情与债。</p>
+    <span class="tag-list"><span class="tag">澳门赌场</span><span class="tag">叠码仔</span><span class="tag">女性视角</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="断箭 一枚失踪的断箭式核弹头出现在首尔地下城,前特工必须在 24 小时内找回发射密钥。 韩国 电影 2023 动作/惊悚 朝韩 核弹 追击 孤胆英雄 反转" data-type="电影" data-year="2023" href="./movie-5.html">
+  <span class="poster-wrap">
+    <img src="./5.jpg" alt="断箭" loading="lazy">
+    <span class="badge-year">2023</span>
+    <span class="badge-region">韩国</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>断箭</h3>
+    <p>一枚失踪的断箭式核弹头出现在首尔地下城,前特工必须在 24 小时内找回发射密钥。</p>
+    <span class="tag-list"><span class="tag">朝韩</span><span class="tag">核弹</span><span class="tag">追击</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="少年时代剧版 历时12年拍摄的真实时间剧版,记录四个普通美国孩子从6岁到18岁的完整青春。 美国 剧集 2025 剧情,成长 青春 真实时间 十二年 家庭" data-type="剧集" data-year="2025" href="./movie-6.html">
+  <span class="poster-wrap">
+    <img src="./6.jpg" alt="少年时代剧版" loading="lazy">
+    <span class="badge-year">2025</span>
+    <span class="badge-region">美国</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>少年时代剧版</h3>
+    <p>历时12年拍摄的真实时间剧版,记录四个普通美国孩子从6岁到18岁的完整青春。</p>
+    <span class="tag-list"><span class="tag">青春</span><span class="tag">真实时间</span><span class="tag">十二年</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="雪花神剑粤语 魔教之女爱上正道大侠,两人创立雪花神剑,但正邪之战逼得他们在雪山顶峰拔剑相向。 中国香港 剧集 1997 武侠/古装/爱情 TVB 经典武侠 师徒虐恋 粤语原声" data-type="剧集" data-year="1997" href="./movie-7.html">
+  <span class="poster-wrap">
+    <img src="./7.jpg" alt="雪花神剑粤语" loading="lazy">
+    <span class="badge-year">1997</span>
+    <span class="badge-region">中国香港</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>雪花神剑粤语</h3>
+    <p>魔教之女爱上正道大侠,两人创立雪花神剑,但正邪之战逼得他们在雪山顶峰拔剑相向。</p>
+    <span class="tag-list"><span class="tag">TVB</span><span class="tag">经典武侠</span><span class="tag">师徒虐恋</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="大掌门 97年金融危机前夕,香港老牌武馆“忠义堂”掌门暴毙,三个弟子争坐馆,幕后却是地产商操盘。 中国香港 剧集 2025 动作、家族、商战 港剧、武馆、家族恩怨、拳拳到肉、时代变迁" data-type="剧集" data-year="2025" href="./movie-8.html">
+  <span class="poster-wrap">
+    <img src="./8.jpg" alt="大掌门" loading="lazy">
+    <span class="badge-year">2025</span>
+    <span class="badge-region">中国香港</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>大掌门</h3>
+    <p>97年金融危机前夕,香港老牌武馆“忠义堂”掌门暴毙,三个弟子争坐馆,幕后却是地产商操盘。</p>
+    <span class="tag-list"><span class="tag">港剧、武馆、家族恩怨、拳拳到肉、时代变迁</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="月读神之心 少年每次入睡都会进入别人的梦里,他遇到一个永远被困在噩梦里的少女,而她的梦连接着一位被遗忘的神明。 日本 动画 2024 奇幻,悬疑,心理 梦境 心理创伤 神明 日式奇幻 治愈" data-type="动画" data-year="2024" href="./movie-9.html">
+  <span class="poster-wrap">
+    <img src="./9.jpg" alt="月读神之心" loading="lazy">
+    <span class="badge-year">2024</span>
+    <span class="badge-region">日本</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>月读神之心</h3>
+    <p>少年每次入睡都会进入别人的梦里,他遇到一个永远被困在噩梦里的少女,而她的梦连接着一位被遗忘的神明。</p>
+    <span class="tag-list"><span class="tag">梦境</span><span class="tag">心理创伤</span><span class="tag">神明</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="风云小棋王之五行杀阵 围棋天才被卷入一场关乎皇权的阴谋,他发现自己手中的棋子每落下一枚,现实中就会有人对应五行位置离奇死亡。 中国大陆 电影 2024 动作,武侠 围棋 阵法 少年英雄 五行 悬疑" data-type="电影" data-year="2024" href="./movie-10.html">
+  <span class="poster-wrap">
+    <img src="./10.jpg" alt="风云小棋王之五行杀阵" loading="lazy">
+    <span class="badge-year">2024</span>
+    <span class="badge-region">中国大陆</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>风云小棋王之五行杀阵</h3>
+    <p>围棋天才被卷入一场关乎皇权的阴谋,他发现自己手中的棋子每落下一枚,现实中就会有人对应五行位置离奇死亡。</p>
+    <span class="tag-list"><span class="tag">围棋</span><span class="tag">阵法</span><span class="tag">少年英雄</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="比特币的崛起 一对屌丝兄弟误打误撞挖出巨额比特币,一夜暴富后,却发现全世界最危险的暗网杀手组织盯上了他们。 美国 电影 2022 犯罪/惊悚/剧情 比特币 黑客 暗网 兄弟情 金融" data-type="电影" data-year="2022" href="./movie-11.html">
+  <span class="poster-wrap">
+    <img src="./11.jpg" alt="比特币的崛起" loading="lazy">
+    <span class="badge-year">2022</span>
+    <span class="badge-region">美国</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>比特币的崛起</h3>
+    <p>一对屌丝兄弟误打误撞挖出巨额比特币,一夜暴富后,却发现全世界最危险的暗网杀手组织盯上了他们。</p>
+    <span class="tag-list"><span class="tag">比特币</span><span class="tag">黑客</span><span class="tag">暗网</span></span>
+  </span>
+</a><a class="movie-card" data-movie-card data-search="我家无难事粤语 一栋破旧唐楼里住了五户人,每天鸡飞狗跳,但谁家出事所有人都会说“我家无难事”。 中国香港 电视剧 2024 家庭,喜剧 粤语处境剧 街坊 出租屋 温情搞笑" data-type="电视剧" data-year="2024" href="./movie-12.html">
+  <span class="poster-wrap">
+    <img src="./12.jpg" alt="我家无难事粤语" loading="lazy">
+    <span class="badge-year">2024</span>
+    <span class="badge-region">中国香港</span>
+    <span class="poster-shade">▶</span>
+  </span>
+  <span class="movie-body">
+    <h3>我家无难事粤语</h3>
+    <p>一栋破旧唐楼里住了五户人,每天鸡飞狗跳,但谁家出事所有人都会说“我家无难事”。</p>
+    <span class="tag-list"><span class="tag">粤语处境剧</span><span class="tag">街坊</span><span class="tag">出租屋</span></span>
+  </span>
+</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <section>
+        <h2>免费影视</h2>
+        <p>免费在线视频平台，提供最新国产热门电影电视剧在线观看。高清流畅播放，无插件，打造纯净的免费影视观看体验！涵盖各类热门影视作品，随时随地畅享精彩内容。</p>
+      </section>
+      <section>
+        <h3>快速导航</h3>
+        <div class="footer-links">
+          <a href="./index.html">首页</a>
+          <a href="./categories.html">分类总览</a>
+          <a href="./rankings.html">热播榜单</a>
+          <a href="./search.html">搜索影片</a>
+        </div>
+      </section>
+      <section>
+        <h3>热门分类</h3>
+        <div class="footer-links">
+        <a href="./category-hot-picks.html">热播精选</a>
+        <a href="./category-new-release.html">最新上线</a>
+        <a href="./category-movie-hall.html">高清电影</a>
+        <a href="./category-series-zone.html">剧集连播</a>
+        <a href="./category-domestic-zone.html">国产专区</a>
+        <a href="./category-action-adventure.html">动作风暴</a>
+        </div>
+      </section>
+    </div>
+    <div class="copyright-line">© 2026 免费影视 · 高清流畅播放</div>
+  </div>
+</footer>
+  </div>
+  <script src="./assets/app.js"></script>
+
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
